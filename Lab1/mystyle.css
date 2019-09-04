@@ -1,0 +1,27 @@
+*{ 
+	background: #FFB6C1
+}
+.main {
+    padding: 0 30px;
+    font-size: 18pt;
+}
+h1 {
+    font-size: 32pt;
+    color: #800080;
+    margin-top: 10px;
+}
+h2 {
+    font-size: 20pt;
+    color: #8A2BE2;
+    margin-top: 10px;
+}
+h3 {
+    color: #8A2BE2;
+}
+img{
+    height: 300px;
+    width: 300px;
+    float: center;
+    padding: 1px;
+    
+}

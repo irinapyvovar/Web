@@ -1,0 +1,199 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+[class^="balcony"]{
+	width: 185px;
+	height: 50px;
+	background-color: #A0522D;
+	z-index:3;
+}
+[class^="house"]{
+	width: 400px;
+	height: 400px;
+	left: 10px;
+}
+[class^="floor"]{
+
+	height: 135px;
+	width: 400px;
+	background-color: #F0E68C;
+	border: solid;
+	left: 10px;
+	z-index: 1;
+
+}
+[class^="roof"]{
+	width: 328px;
+	height: 35px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #006400;	 
+}
+[class^="door"]{
+
+	width: 60px;
+	height: 120px;
+	background-color:#DD7C21FF ; 
+	z-index: 2;
+	border:solid;
+	left: 10px;
+}
+
+[class^="window"]{ 
+	background-color: #4682B4;
+	width: 80px;
+	height: 80px;
+	border:solid;
+	z-index:2;
+
+}
+[class^="door_handle"]{
+	width: 10px;
+	height: 20px;
+	background-color: #FFFFFFFF;
+	border:solid;
+	z-index: 3;
+}
+.house_1 *{
+ 	position: relative;
+}
+.house_2 *{
+ 	position: fixed;
+}
+.house_3 *{
+ 	position: absolute;
+}
+.house_4 *{
+	position: static;
+}
+.window1_1{
+	top: 15px;
+	left: 35px;
+}
+.window2_1{
+	top: 15px;
+	left: 35px;
+}
+.window3_1{
+	top: -256px;
+	left: 282px;
+}
+.balcony1{
+	top: -1px;
+	left: 200px;
+}
+.door2_1{
+	top: -130px;
+	left: 220px;
+}
+.door1_1{
+	top: -75px;
+	left: 220px;
+}
+.door_handle2_1{
+	top: -290px;
+	left: 265px;
+}
+.door_handle1_1{
+	top: -145px;
+	left: 265px;
+}
+
+
+
+
+.window1_2{
+	top: 260px;
+	left: 35px;
+}
+.window2_2{
+	top: 120px;
+	left: 35px;
+}
+.window3_2{
+	top: 120px;
+	left: 282px;
+}
+.balcony2{
+	top: 193px;
+	left: 200px;
+}
+.door2_2{
+	top: 120px;
+	left: 220px;
+}
+.door1_2{
+	top: 260px;
+	left: 220px;
+}
+.door_handle2_2{
+	top: 165px;
+	left: 265px;
+}
+.door_handle1_2 	{
+	top: 315px;
+	left: 265px;
+}
+.roof2{
+	top: -30px;
+	left: 0;
+}
+.floor1_2{
+	top: 245px;
+	left: 10px;
+}
+.floor2_2{
+	top: 105px;
+	left: 10px;
+}
+
+
+
+
+
+
+.window1_3{
+	top: 20px;
+	left: 35px;
+}
+.window2_3{
+	top: 20px;
+	left: 35px;
+}
+.window3_3{
+	top: 10px;
+	left: 282px;
+}
+.balcony3{
+	top: 85px;
+	left: 200px;
+}
+.door2_3{
+	top: 10px;
+	left: 220px;
+}
+.door1_3{
+	top: 12px;
+	left: 220px;
+}
+.door_handle2_3{
+	top: 57px;
+	left: 265px;
+}
+.door_handle1_3 	{
+	top: 70px;
+	left: 265px;
+}
+.roof3{
+	top: 370px;
+	left: 0;
+}
+.floor1_3{
+	top: 645px;
+	left: 10px;
+}
+.floor2_3{
+	top: 505px;
+	left: 10px;
+}

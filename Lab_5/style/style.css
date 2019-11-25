@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logotyp {
+  display: block;
+  padding: 30px 0 30px 50px;
+  color: #d7794a;
+  text-transform: uppercase;
+}
+
+.menu {
+  width: 100%;
+  height: 365px;
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: flex-start;
+  background: rgba(71, 74, 81, 0.5);
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.home {
+  margin-left: 30px;
+}
+
+.menu__item {
+  padding: 15px 15px;
+  display: inline-block;
+  height: 100%;
+}
+.menu__item:hover {
+  background-color: #a95e39;
+}
+
+.menu__items a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.text-welcome {
+  position: absolute;
+  top: 332px;
+  right: 64px;
+  text-transform: uppercase;
+}
+.text-welcome h1 {
+  color: white;
+}
+.text-welcome h2 {
+  color: #a95e39;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 1542px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team__title {
+  margin: 75px 0 25px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #a95e39;
+  text-transform: uppercase;
+}
+
+.team__description {
+  padding: 0 180px 0 180px;
+  text-align: center;
+}
+
+.team__items-block {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 55px;
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.item__img img {
+  width: 213px;
+  height: 267px;
+}
+
+.item__title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.item__desc {
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  height: 128px;
+  width: 225px;
+}
+
+.line__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 130px;
+  padding-top: 10px;
+  background: #1b2c33;
+  bottom: 0;
+  width: 100%;
+}
+
+.foother-menu__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.foother-menu__item a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+.foother-menu__item a:hover {
+  color: #a95e39;
+}
+.foother-menu__item p {
+  text-transform: uppercase;
+}
+
+.line__copyright {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+  height: 59px;
+  background: black;
+}
+
+.copyright__social {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+}
+
+.copyright__text {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 50px;
+  color: white;
+}
+
+.copyright__social img {
+  padding: 10px 10px;
+  height: 35px;
+  width: 35px;
+}
+.foother-menu__item img {
+  margin-top: 25px;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 30px;
+  }
+
+  .logotyp {
+    font-size: 12px;
+    padding: 15px 0 15px 20px;
+  }
+
+  .menu__items {
+    height: auto;
+  }
+
+  .menu {
+    height: 225px;
+  }
+
+  .menu__item {
+    padding: 5px 5px;
+  }
+
+  .home {
+    margin-left: 0;
+  }
+
+  .text-welcome {
+    top: 220px;
+    right: 14px;
+  }
+  .text-welcome h1, .text-welcome h2 {
+    font-size: 15px;
+  }
+
+  .menu__items li a {
+    font-size: 9px;
+  }
+
+  .team__items-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team__title {
+    margin: 50px 0 25px 0;
+    font-size: 20px;
+  }
+
+  .team__description {
+    font-size: 17px;
+    padding: 0 20px 0 20px;
+  }
+
+  .item__img img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item__title {
+    font-size: 18px;
+    padding: 15px 0 0 0;
+  }
+
+  .item__desc {
+    font-size: 12px;
+    height: auto;
+    align-self: center;
+    width: 225px;
+  }
+
+  .line__menu {
+    height: auto;
+  }
+
+  .foother-menu__item a {
+    font-size: 7px;
+  }
+  .foother-menu__item p {
+    font-size: 10px;
+  }
+
+  .copyright__text {
+    font-size: 9px;
+    padding: 10px 200px 10px 0;
+  }
+
+  .line__copyright {
+    height: auto;
+  
+  }
+}
